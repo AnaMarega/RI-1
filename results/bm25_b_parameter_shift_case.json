@@ -1,0 +1,64 @@
+{
+  "query_id": "50",
+  "query_text": "what are the effects of small amounts of gas rarefaction on the characteristics of the boundary layers on slender bodies of revolution .",
+  "target_doc_id": "326",
+  "target_doc_title": "forst-order slip effects on the compressible laminar boundary layer over a slender body of revolution in axial flow .",
+  "target_doc_length": 68,
+  "avdl": 102.73285714285714,
+  "rank_b0": ">10",
+  "rank_b1": 1,
+  "top5_b0": [
+    [
+      "329",
+      22.687519888693163,
+      false
+    ],
+    [
+      "25",
+      18.83443721162143,
+      false
+    ],
+    [
+      "124",
+      18.34810187585754,
+      false
+    ],
+    [
+      "192",
+      18.34787983954202,
+      false
+    ],
+    [
+      "992",
+      16.583514053305162,
+      false
+    ]
+  ],
+  "top5_b1": [
+    [
+      "326",
+      18.65081521010449,
+      true
+    ],
+    [
+      "192",
+      17.82067590218142,
+      false
+    ],
+    [
+      "124",
+      16.648922429192552,
+      false
+    ],
+    [
+      "494",
+      15.705981064266481,
+      false
+    ],
+    [
+      "528",
+      15.59969281103129,
+      false
+    ]
+  ]
+}

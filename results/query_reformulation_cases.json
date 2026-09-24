@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "1",
+    "strategy": "Adição de termos técnicos e sinônimos estruturais (aeroelasticidade -> flutter, thermo-elastic)",
+    "original_query": "what similarity laws must be obeyed when constructing aeroelastic models of heated high speed aircraft .",
+    "modified_query": "similarity laws governing thermo-aeroelastic scale models structural flutter supersonic heated aircraft",
+    "total_relevant": 28,
+    "VSM_original_metrics": {
+      "P@10": 0.6,
+      "R@10": 0.2143,
+      "AP": 0.3169,
+      "NDCG@10": 0.4426
+    },
+    "VSM_modified_metrics": {
+      "P@10": 0.6,
+      "R@10": 0.2143,
+      "AP": 0.3553,
+      "NDCG@10": 0.48
+    },
+    "BM25_original_metrics": {
+      "P@10": 0.3,
+      "R@10": 0.1071,
+      "AP": 0.2285,
+      "NDCG@10": 0.2666
+    },
+    "BM25_modified_metrics": {
+      "P@10": 0.5,
+      "R@10": 0.1786,
+      "AP": 0.2911,
+      "NDCG@10": 0.3775
+    },
+    "VSM_top10_intersection": 5,
+    "BM25_top10_intersection": 5,
+    "VSM_new_relevant_in_top10": [
+      "880"
+    ],
+    "BM25_new_relevant_in_top10": [
+      "880",
+      "13"
+    ]
+  },
+  {
+    "query_id": "8",
+    "strategy": "Especificação precisa: substituição de pergunta aberta por termos conceituais exatos",
+    "original_query": "what methods -dash exact or approximate -dash are presently available for predicting body pressures at angle of attack.",
+    "modified_query": "aerodynamic interference slipstream propeller wing lift distribution angle attack",
+    "total_relevant": 11,
+    "VSM_original_metrics": {
+      "P@10": 0.2,
+      "R@10": 0.1818,
+      "AP": 0.2187,
+      "NDCG@10": 0.3249
+    },
+    "VSM_modified_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.0516,
+      "NDCG@10": 0.0
+    },
+    "BM25_original_metrics": {
+      "P@10": 0.1,
+      "R@10": 0.0909,
+      "AP": 0.1601,
+      "NDCG@10": 0.306
+    },
+    "BM25_modified_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.0397,
+      "NDCG@10": 0.0
+    },
+    "VSM_top10_intersection": 0,
+    "BM25_top10_intersection": 0,
+    "VSM_new_relevant_in_top10": [],
+    "BM25_new_relevant_in_top10": []
+  },
+  {
+    "query_id": "12",
+    "strategy": "Generalização e remoção de termos excessivamente específicos",
+    "original_query": "how can the aerodynamic performance of channel flow ground effect machines be calculated .",
+    "modified_query": "boundary layer laminar turbulent transition heat transfer supersonic flow",
+    "total_relevant": 5,
+    "VSM_original_metrics": {
+      "P@10": 0.2,
+      "R@10": 0.4,
+      "AP": 0.179,
+      "NDCG@10": 0.2851
+    },
+    "VSM_modified_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.0027,
+      "NDCG@10": 0.0
+    },
+    "BM25_original_metrics": {
+      "P@10": 0.2,
+      "R@10": 0.4,
+      "AP": 0.2796,
+      "NDCG@10": 0.2646
+    },
+    "BM25_modified_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.0027,
+      "NDCG@10": 0.0
+    },
+    "VSM_top10_intersection": 0,
+    "BM25_top10_intersection": 0,
+    "VSM_new_relevant_in_top10": [],
+    "BM25_new_relevant_in_top10": []
+  },
+  {
+    "query_id": "23",
+    "strategy": "Adição de sinônimos físicos (pressure distribution, shock wave reflection)",
+    "original_query": "what progress has been made in research on unsteady aerodynamics .",
+    "modified_query": "pressure distribution shock wave boundary layer interaction supersonic wind tunnel",
+    "total_relevant": 32,
+    "VSM_original_metrics": {
+      "P@10": 0.5,
+      "R@10": 0.1562,
+      "AP": 0.2688,
+      "NDCG@10": 0.3168
+    },
+    "VSM_modified_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.0244,
+      "NDCG@10": 0.0
+    },
+    "BM25_original_metrics": {
+      "P@10": 0.5,
+      "R@10": 0.1562,
+      "AP": 0.2421,
+      "NDCG@10": 0.3535
+    },
+    "BM25_modified_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.022,
+      "NDCG@10": 0.0
+    },
+    "VSM_top10_intersection": 0,
+    "BM25_top10_intersection": 0,
+    "VSM_new_relevant_in_top10": [],
+    "BM25_new_relevant_in_top10": []
+  },
+  {
+    "query_id": "87",
+    "strategy": "Remoção de ruído coloquial e inclusão de descritores de regime térmico",
+    "original_query": "what effect has the boundary layer in modifying the basic inviscid flow behind the shock, neglecting effects of leading edge and corner .",
+    "modified_query": "transient heat conduction multilayer composite slabs thermal stress diffusion",
+    "total_relevant": 8,
+    "VSM_original_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.013,
+      "NDCG@10": 0.0
+    },
+    "VSM_modified_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.01,
+      "NDCG@10": 0.0
+    },
+    "BM25_original_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.0114,
+      "NDCG@10": 0.0
+    },
+    "BM25_modified_metrics": {
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "AP": 0.009,
+      "NDCG@10": 0.0
+    },
+    "VSM_top10_intersection": 0,
+    "BM25_top10_intersection": 0,
+    "VSM_new_relevant_in_top10": [],
+    "BM25_new_relevant_in_top10": []
+  }
+]

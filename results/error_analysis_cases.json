@@ -1,0 +1,176 @@
+{
+  "false_positives": [
+    {
+      "case_type": "Falso Positivo no Top-1",
+      "query_id": "3",
+      "query_text": "what problems of heat conduction in composite slabs have been solved so far .",
+      "doc_id": "485",
+      "rank": 1,
+      "score": 21.929,
+      "doc_title": "linear heat flow in a composite slab .",
+      "doc_snippet": "linear heat flow in a composite slab . the temperature is determined as a function of position and time in the case of linear heat conduction in a composite slab of ture throughout, and the two external surface temperatures are considered to be presc",
+      "matched_terms": [
+        {
+          "term": "slab",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 3,
+          "idf": 4.570792896910478,
+          "length_factor_B": 0.4690146426932543,
+          "tf_saturation_component": 1.8524664448979737,
+          "contribution": 8.467240468104665
+        },
+        {
+          "term": "composit",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 3,
+          "idf": 4.087941125186894,
+          "length_factor_B": 0.4690146426932543,
+          "tf_saturation_component": 1.8524664448979737,
+          "contribution": 7.572773763127187
+        },
+        {
+          "term": "conduct",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 1,
+          "idf": 2.1791869530196717,
+          "length_factor_B": 0.4690146426932543,
+          "tf_saturation_component": 1.4077138883624338,
+          "contribution": 3.0676717391040063
+        },
+        {
+          "term": "heat",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 3,
+          "idf": 1.522991767725357,
+          "length_factor_B": 0.4690146426932543,
+          "tf_saturation_component": 1.8524664448979737,
+          "contribution": 2.8212911455670726
+        }
+      ],
+      "reason_diagnosis": "O documento contém repetições concentradas de termos com alto IDF presentes na consulta, mas o contexto semântico real da publicação aborda um fenômeno distinto (alta sobreposição lexical sem concordância semântica)."
+    },
+    {
+      "case_type": "Falso Positivo no Top-1",
+      "query_id": "5",
+      "query_text": "what chemical kinetic system is applicable to hypersonic aerodynamic problems .",
+      "doc_id": "103",
+      "rank": 1,
+      "score": 15.3708,
+      "doc_title": "theory of mixing and chemical reaction in the opposed jet diffusion flame .",
+      "doc_snippet": "theory of mixing and chemical reaction in the opposed jet diffusion flame . an idealization of the flow system used by potter and butler is analyzed . the differential equation of mixing is solved exactly, to give the location of, and burning rate in",
+      "matched_terms": [
+        {
+          "term": "chemic",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 4,
+          "idf": 3.5942833050432683,
+          "length_factor_B": 0.8194380710024614,
+          "tf_saturation_component": 1.7658889978092225,
+          "contribution": 6.347105343385277
+        },
+        {
+          "term": "kinet",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 2,
+          "idf": 4.006263094172627,
+          "length_factor_B": 0.8194380710024614,
+          "tf_saturation_component": 1.474864116185381,
+          "contribution": 5.908693677593021
+        },
+        {
+          "term": "system",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 1,
+          "idf": 2.808190011973879,
+          "length_factor_B": 0.8194380710024614,
+          "tf_saturation_component": 1.109247974961245,
+          "contribution": 3.1149790840884193
+        }
+      ],
+      "reason_diagnosis": "O documento contém repetições concentradas de termos com alto IDF presentes na consulta, mas o contexto semântico real da publicação aborda um fenômeno distinto (alta sobreposição lexical sem concordância semântica)."
+    }
+  ],
+  "false_negatives": [
+    {
+      "case_type": "Falso Negativo Fora do Top-10",
+      "query_id": "1",
+      "query_text": "what similarity laws must be obeyed when constructing aeroelastic models of heated high speed aircraft .",
+      "doc_id": "30",
+      "actual_rank": 340,
+      "doc_title": "photo-thermoelastic investigation of transient thermal stresses in a multiweb wing structure .",
+      "doc_snippet": "photo-thermoelastic investigation of transient thermal stresses in a multiweb wing structure . photothermoelastic experiments were performed on a long multiweb wing model for which a theoretical analysis is available in the literature . the experimen",
+      "matched_terms": [
+        {
+          "term": "model",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 1,
+          "idf": 2.0716206699636555,
+          "length_factor_B": 0.8121375829126862,
+          "tf_saturation_component": 1.1141693938388797,
+          "contribution": 2.3081363461174997
+        },
+        {
+          "term": "heat",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 1,
+          "idf": 1.522991767725357,
+          "length_factor_B": 0.8121375829126862,
+          "tf_saturation_component": 1.1141693938388797,
+          "contribution": 1.696870814668165
+        }
+      ],
+      "missing_terms": [
+        "similar",
+        "law",
+        "must",
+        "obey",
+        "construct",
+        "aeroelast",
+        "high",
+        "speed",
+        "aircraft"
+      ],
+      "reason_diagnosis": "Incompatibilidade de vocabulário (vocabulary mismatch): o documento expressa o conceito desejado através de formulações sinônimas ou simbologia técnica não espelhada literalmente nos termos da consulta."
+    },
+    {
+      "case_type": "Falso Negativo Fora do Top-10",
+      "query_id": "2",
+      "query_text": "what are the structural and aeroelastic problems associated with flight of high speed aircraft .",
+      "doc_id": "442",
+      "actual_rank": 492,
+      "doc_title": "some effects of variations in several parameters including fluid density on the flutter speed of light uniform cantilever wings .",
+      "doc_snippet": "some effects of variations in several parameters including fluid density on the flutter speed of light uniform cantilever wings . an experimental investigation has been made of some effects of variations in several parameters, including fluid density",
+      "matched_terms": [
+        {
+          "term": "speed",
+          "in_document": true,
+          "query_tf": 1,
+          "doc_tf": 3,
+          "idf": 1.5699015405464598,
+          "length_factor_B": 1.2501668682991949,
+          "tf_saturation_component": 1.4666014055247638,
+          "contribution": 2.30241980590093
+        }
+      ],
+      "missing_terms": [
+        "structur",
+        "aeroelast",
+        "problem",
+        "associ",
+        "flight",
+        "high",
+        "aircraft"
+      ],
+      "reason_diagnosis": "Incompatibilidade de vocabulário (vocabulary mismatch): o documento expressa o conceito desejado através de formulações sinônimas ou simbologia técnica não espelhada literalmente nos termos da consulta."
+    }
+  ]
+}

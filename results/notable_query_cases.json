@@ -1,0 +1,614 @@
+{
+  "bm25_superior": [
+    {
+      "query_id": "36",
+      "query_text": "has anyone investigated relaxation effects on gaseous heat transfer to a suddenly heated wall .",
+      "total_relevant": 2,
+      "metrics": {
+        "VSM": {
+          "AP": 0.06448412698412698,
+          "P@10": 0.1,
+          "NDCG@10": 0.10642269850451405
+        },
+        "BM25": {
+          "AP": 0.5024570024570024,
+          "P@10": 0.1,
+          "NDCG@10": 0.3373519727104165
+        }
+      },
+      "top5_VSM": [
+        {
+          "rank": 1,
+          "doc_id": "398",
+          "score": 0.2628,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "heat transfer in turbulent shear flow ."
+        },
+        {
+          "rank": 2,
+          "doc_id": "303",
+          "score": 0.2403,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "effect of variable heat recombination on stagnation point heat transfer ."
+        },
+        {
+          "rank": 3,
+          "doc_id": "564",
+          "score": 0.2349,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "local heat transfer and recovery temperature on a yawed cylinder at a mach numbe"
+        },
+        {
+          "rank": 4,
+          "doc_id": "554",
+          "score": 0.2335,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "generalized heat transfer formulas and graphs ."
+        },
+        {
+          "rank": 5,
+          "doc_id": "623",
+          "score": 0.2304,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "on the coupling between heat and mass transfer ."
+        }
+      ],
+      "top5_BM25": [
+        {
+          "rank": 1,
+          "doc_id": "168",
+          "score": 17.3799,
+          "is_relevant": true,
+          "cleverdon_grade": 3,
+          "title": "heat conduction through a gas with one inert internal model ."
+        },
+        {
+          "rank": 2,
+          "doc_id": "123",
+          "score": 15.0733,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "the downstream influence of mass transfer at the nose of a slender cone ."
+        },
+        {
+          "rank": 3,
+          "doc_id": "623",
+          "score": 14.6589,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "on the coupling between heat and mass transfer ."
+        },
+        {
+          "rank": 4,
+          "doc_id": "518",
+          "score": 14.1461,
+          "is_relevant": false,
+          "cleverdon_grade": -1,
+          "title": "heat conduction through a polyatomic gas ."
+        },
+        {
+          "rank": 5,
+          "doc_id": "959",
+          "score": 13.6985,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "heat transfer in separated flows ."
+        }
+      ]
+    },
+    {
+      "query_id": "167",
+      "query_text": "exact solution methods for calculating the ablative mass loss of a material ablating at high temperatures in a hypersonic flight environment .",
+      "total_relevant": 2,
+      "metrics": {
+        "VSM": {
+          "AP": 0.08834586466165413,
+          "P@10": 0.0,
+          "NDCG@10": 0.0
+        },
+        "BM25": {
+          "AP": 0.5,
+          "P@10": 0.2,
+          "NDCG@10": 0.6419288461539238
+        }
+      },
+      "top5_VSM": [
+        {
+          "rank": 1,
+          "doc_id": "553",
+          "score": 0.3629,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "ablation of glassy materials around blunt bodies of revolution ."
+        },
+        {
+          "rank": 2,
+          "doc_id": "1279",
+          "score": 0.3261,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "sublimation in a hypersonic environment ."
+        },
+        {
+          "rank": 3,
+          "doc_id": "1099",
+          "score": 0.2999,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "a theoretical study of stagnation point ablation ."
+        },
+        {
+          "rank": 4,
+          "doc_id": "1097",
+          "score": 0.2825,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "experimental ablation cooling ."
+        },
+        {
+          "rank": 5,
+          "doc_id": "1100",
+          "score": 0.2758,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "an analytical investigation of ablation ."
+        }
+      ],
+      "top5_BM25": [
+        {
+          "rank": 1,
+          "doc_id": "1279",
+          "score": 24.4652,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "sublimation in a hypersonic environment ."
+        },
+        {
+          "rank": 2,
+          "doc_id": "274",
+          "score": 24.1488,
+          "is_relevant": true,
+          "cleverdon_grade": 2,
+          "title": "analysis of quartz and teflon shields for a particular re-entry mission ."
+        },
+        {
+          "rank": 3,
+          "doc_id": "553",
+          "score": 23.3434,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "ablation of glassy materials around blunt bodies of revolution ."
+        },
+        {
+          "rank": 4,
+          "doc_id": "82",
+          "score": 22.0023,
+          "is_relevant": true,
+          "cleverdon_grade": 3,
+          "title": "theoretical investigation of the ablation of a glass-type heat protection shield"
+        },
+        {
+          "rank": 5,
+          "doc_id": "1098",
+          "score": 17.1287,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "an experimental investigation of ablating material at low and high enthalpy pote"
+        }
+      ]
+    }
+  ],
+  "vsm_superior": [
+    {
+      "query_id": "17",
+      "query_text": "can the three-dimensional problem of a transverse potential flow about a body of revolution be reduced to a two-dimensional problem .",
+      "total_relevant": 2,
+      "metrics": {
+        "VSM": {
+          "AP": 0.5079365079365079,
+          "P@10": 0.1,
+          "NDCG@10": 0.7871546029909718
+        },
+        "BM25": {
+          "AP": 0.10719424460431655,
+          "P@10": 0.1,
+          "NDCG@10": 0.30451296789464855
+        }
+      },
+      "top5_VSM": [
+        {
+          "rank": 1,
+          "doc_id": "106",
+          "score": 0.4233,
+          "is_relevant": true,
+          "cleverdon_grade": 2,
+          "title": "the transverse potential flow past a body of revolution ."
+        },
+        {
+          "rank": 2,
+          "doc_id": "1281",
+          "score": 0.4215,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "turbulent heat transfer on blunt-nosed bodies in two-dimensional and general thr"
+        },
+        {
+          "rank": 3,
+          "doc_id": "700",
+          "score": 0.3877,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "two and three-dimensional unsteady lift problems in high speed flight ."
+        },
+        {
+          "rank": 4,
+          "doc_id": "1301",
+          "score": 0.3499,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "compressible boundary layers on bodies of revolution ."
+        },
+        {
+          "rank": 5,
+          "doc_id": "498",
+          "score": 0.3084,
+          "is_relevant": false,
+          "cleverdon_grade": -1,
+          "title": "calculation of potential flow about bodies of revolution having axes perpendicul"
+        }
+      ],
+      "top5_BM25": [
+        {
+          "rank": 1,
+          "doc_id": "1108",
+          "score": 22.6978,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "a study of second-order supersonic flow theory ."
+        },
+        {
+          "rank": 2,
+          "doc_id": "1281",
+          "score": 21.9008,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "turbulent heat transfer on blunt-nosed bodies in two-dimensional and general thr"
+        },
+        {
+          "rank": 3,
+          "doc_id": "336",
+          "score": 21.5978,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "simplified laminar boundary layer calculations for bodies of revolution and for "
+        },
+        {
+          "rank": 4,
+          "doc_id": "700",
+          "score": 21.0374,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "two and three-dimensional unsteady lift problems in high speed flight ."
+        },
+        {
+          "rank": 5,
+          "doc_id": "106",
+          "score": 20.1522,
+          "is_relevant": true,
+          "cleverdon_grade": 2,
+          "title": "the transverse potential flow past a body of revolution ."
+        }
+      ]
+    },
+    {
+      "query_id": "144",
+      "query_text": "can studies of pure membrane cylinders having no wall bending stiffness but maintaining their shape by virtue of internal pressure provide any insight into the behaviour of pressurized cylinders with finite wall stiffness .",
+      "total_relevant": 6,
+      "metrics": {
+        "VSM": {
+          "AP": 0.7159090909090908,
+          "P@10": 0.5,
+          "NDCG@10": 0.8066975967128548
+        },
+        "BM25": {
+          "AP": 0.38089225589225584,
+          "P@10": 0.4,
+          "NDCG@10": 0.44973943366682134
+        }
+      },
+      "top5_VSM": [
+        {
+          "rank": 1,
+          "doc_id": "1045",
+          "score": 0.3791,
+          "is_relevant": true,
+          "cleverdon_grade": 2,
+          "title": "the bending strength of pressurized cylinders ."
+        },
+        {
+          "rank": 2,
+          "doc_id": "763",
+          "score": 0.3292,
+          "is_relevant": true,
+          "cleverdon_grade": 3,
+          "title": "effects of internal pressure on the buckling of circular-cylindrical shells unde"
+        },
+        {
+          "rank": 3,
+          "doc_id": "955",
+          "score": 0.3123,
+          "is_relevant": false,
+          "cleverdon_grade": -1,
+          "title": "the membrane approach to bending instability of pressureized cylindrical shells "
+        },
+        {
+          "rank": 4,
+          "doc_id": "839",
+          "score": 0.3049,
+          "is_relevant": true,
+          "cleverdon_grade": 3,
+          "title": "the bending stability of thin-- walled unstiffened circular cylinders including "
+        },
+        {
+          "rank": 5,
+          "doc_id": "1046",
+          "score": 0.2741,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "the bending strength of pressurized cylinders ."
+        }
+      ],
+      "top5_BM25": [
+        {
+          "rank": 1,
+          "doc_id": "955",
+          "score": 29.1532,
+          "is_relevant": false,
+          "cleverdon_grade": -1,
+          "title": "the membrane approach to bending instability of pressureized cylindrical shells "
+        },
+        {
+          "rank": 2,
+          "doc_id": "1363",
+          "score": 27.8371,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "a characteristic type of instability in the large deflections of elastic plates "
+        },
+        {
+          "rank": 3,
+          "doc_id": "839",
+          "score": 27.7217,
+          "is_relevant": true,
+          "cleverdon_grade": 3,
+          "title": "the bending stability of thin-- walled unstiffened circular cylinders including "
+        },
+        {
+          "rank": 4,
+          "doc_id": "763",
+          "score": 27.3613,
+          "is_relevant": true,
+          "cleverdon_grade": 3,
+          "title": "effects of internal pressure on the buckling of circular-cylindrical shells unde"
+        },
+        {
+          "rank": 5,
+          "doc_id": "1126",
+          "score": 25.9391,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "an engineer's conceptual approach to the buckling of cylindrical shell (axial lo"
+        }
+      ]
+    }
+  ],
+  "both_unsatisfactory": [
+    {
+      "query_id": "22",
+      "query_text": "did anyone else discover that the turbulent skin friction is not over sensitive to the nature of the variation of the viscosity with temperature .",
+      "total_relevant": 1,
+      "metrics": {
+        "VSM": {
+          "AP": 0.0007530120481927711,
+          "P@10": 0.0,
+          "NDCG@10": 0.0
+        },
+        "BM25": {
+          "AP": 0.0007530120481927711,
+          "P@10": 0.0,
+          "NDCG@10": 0.0
+        }
+      },
+      "top5_VSM": [
+        {
+          "rank": 1,
+          "doc_id": "125",
+          "score": 0.2969,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "measurements of skin friction of the compressible turbulent boundary layer on a "
+        },
+        {
+          "rank": 2,
+          "doc_id": "254",
+          "score": 0.245,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "boundary layers with suction and injection . a review of published work on skin "
+        },
+        {
+          "rank": 3,
+          "doc_id": "413",
+          "score": 0.2448,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "turbulent skin friction at high mach numbers and reynolds numbers in air and hel"
+        },
+        {
+          "rank": 4,
+          "doc_id": "165",
+          "score": 0.2396,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "skin-friction measurements in incompressible flow ."
+        },
+        {
+          "rank": 5,
+          "doc_id": "560",
+          "score": 0.2392,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "a theoretical study of the effect of upstream transpiration-cooling on the heat "
+        }
+      ],
+      "top5_BM25": [
+        {
+          "rank": 1,
+          "doc_id": "125",
+          "score": 18.5192,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "measurements of skin friction of the compressible turbulent boundary layer on a "
+        },
+        {
+          "rank": 2,
+          "doc_id": "560",
+          "score": 16.8158,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "a theoretical study of the effect of upstream transpiration-cooling on the heat "
+        },
+        {
+          "rank": 3,
+          "doc_id": "50",
+          "score": 15.4536,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "investigation of laminar boundary layer in compressible fluids using the crocco "
+        },
+        {
+          "rank": 4,
+          "doc_id": "413",
+          "score": 15.4419,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "turbulent skin friction at high mach numbers and reynolds numbers in air and hel"
+        },
+        {
+          "rank": 5,
+          "doc_id": "81",
+          "score": 14.8095,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "compressible laminar flow and heat transfer about a rotating isothermal disk ."
+        }
+      ]
+    },
+    {
+      "query_id": "31",
+      "query_text": "what size of end plate can be safely used to simulate two-dimensional flow conditions over a bluff cylindrical body of finite aspect ratio .",
+      "total_relevant": 1,
+      "metrics": {
+        "VSM": {
+          "AP": 0.0008888888888888889,
+          "P@10": 0.0,
+          "NDCG@10": 0.0
+        },
+        "BM25": {
+          "AP": 0.0009174311926605505,
+          "P@10": 0.0,
+          "NDCG@10": 0.0
+        }
+      },
+      "top5_VSM": [
+        {
+          "rank": 1,
+          "doc_id": "751",
+          "score": 0.4329,
+          "is_relevant": false,
+          "cleverdon_grade": -1,
+          "title": "a note on the use of end plates to prevent three dimensional flow at the ends of"
+        },
+        {
+          "rank": 2,
+          "doc_id": "68",
+          "score": 0.2083,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "some aspects of air-helium simulation and hypersonic approximations ."
+        },
+        {
+          "rank": 3,
+          "doc_id": "247",
+          "score": 0.1935,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "the calculation of the pressure distribution on thick wings of small aspect rati"
+        },
+        {
+          "rank": 4,
+          "doc_id": "916",
+          "score": 0.1819,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "the flow around oscillating low aspect ratio wings at transonic speeds ."
+        },
+        {
+          "rank": 5,
+          "doc_id": "918",
+          "score": 0.1804,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "on the low aspect ratio oscillating rectangular wing in supersonic flow ."
+        }
+      ],
+      "top5_BM25": [
+        {
+          "rank": 1,
+          "doc_id": "751",
+          "score": 27.8342,
+          "is_relevant": false,
+          "cleverdon_grade": -1,
+          "title": "a note on the use of end plates to prevent three dimensional flow at the ends of"
+        },
+        {
+          "rank": 2,
+          "doc_id": "1209",
+          "score": 18.6993,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "aerodynamic processes in the downwash-impingement problem ."
+        },
+        {
+          "rank": 3,
+          "doc_id": "1153",
+          "score": 18.0372,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "a study of the simulation of flow with free stream mach number 1 in a choked win"
+        },
+        {
+          "rank": 4,
+          "doc_id": "1245",
+          "score": 17.1682,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "some aspects of nonequilibrium flows ."
+        },
+        {
+          "rank": 5,
+          "doc_id": "228",
+          "score": 15.997,
+          "is_relevant": false,
+          "cleverdon_grade": 0,
+          "title": "navier-stokes solutions at large distances from a finite body ."
+        }
+      ]
+    }
+  ]
+}
